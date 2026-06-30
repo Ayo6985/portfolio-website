@@ -1,0 +1,110 @@
+.featured-projects-sect {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.fps-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fps-1 a {
+  font-family: Lato;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.featured-projects-sect h2 {
+  font-family: Pliant;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+
+.featured-projects-sect h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  width: 10%;
+  height: 3px;
+  background: linear-gradient(to right, #00ccff, #25d3ff, #25d3ff7c, #25d3ff00);
+}
+
+/*------------------card structure--------------*/
+
+.project-cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.project-card {
+  flex: 1;
+  max-height: 26rem;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.144);
+}
+
+.project-card-top {
+  width: 100%;
+  height: 35%;
+  overflow: hidden;
+}
+
+.project-card-btm {
+  height: 65%;
+  padding: 1rem;
+}
+
+/*----Project info-------------*/
+.featured-project-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.featured-project-name {
+  margin: 0;
+  font-family: Pliant;
+  font-weight: 500;
+  max-width: 12rem;
+}
+
+.project-descp {
+  font-family: Lato;
+  max-width: 16rem;
+  font-size: 1rem;
+}
+
+.tag-wrapper {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+  max-width: 16rem;
+  margin-top: 2rem;
+}
+
+.project-tag {
+  flex: auto;
+  border: none;
+  background-color: #59d5f3;
+  padding: 0.3rem;
+  border-radius: 0.4rem;
+}
+
+.vp-wrapper {
+  margin-top: 2rem;
+}
+
+.vp-link {
+  text-decoration: none;
+  font-family: Lato;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: bold;
+}

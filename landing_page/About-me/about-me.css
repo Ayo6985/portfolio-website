@@ -1,0 +1,90 @@
+.aboutme-sect {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.profilepic-wrapper {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.profilepic-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutme-sect-right {
+  flex: 1;
+  font-family: Lato;
+}
+
+.aboutme-sect-right h2 {
+  font-family: Pliant;
+  font-weight: 500;
+  position: relative;
+  margin-top: 0;
+}
+
+.aboutme-sect-right h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  width: 10%;
+  height: 3px;
+  background: linear-gradient(to right, #00ccff, #25d3ff, #25d3ff7c, #25d3ff00);
+}
+
+.aboutme-sect-right p {
+  width: 80%;
+}
+
+/*==============================card structure============================*/
+.abm-cards-wrap {
+  display: flex;
+  flex-direction: row;
+  height: 25%;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.abm-cards {
+  flex: 1;
+  border-radius: 1rem;
+  overflow: hidden;
+  display: flex;
+  padding-left: 0.3rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.048);
+}
+
+.abm-card-left {
+  flex: 1;
+}
+
+.abm-card-right {
+  flex: 2;
+  padding-left: 0.3rem;
+}
+
+/*==============================card content============================*/
+.abm-card-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.abm-card-right p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.abm-card-right h5 {
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  font-family: Pliant;
+}

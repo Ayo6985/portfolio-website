@@ -1,0 +1,102 @@
+<!doctype html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!--Lato Font (used for normal text etc)-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pliant:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <!--Pliant Font (used for big titles etc)-->
+
+  <!--CSS Styles-->
+  <link rel="stylesheet" href="../universal-components/body.css" />
+  <link rel="stylesheet" href="landing_page.css" />
+  <link rel="stylesheet" href="featured-projects.css" />
+  <link rel="stylesheet" href="./technical-skills/technical-skills.css" />
+  <link rel="stylesheet" href="./About-me/about-me.css" />
+</head>
+<body>
+  <header>
+    <h1><span class="h1-1">A</span>A</h1>
+    <nav class="headerLinks">
+      <a href="">Home</a>
+      <a href="http://127.0.0.1:5500/projects_page/projects_page.html">Projects</a>
+      <a href="">Skills</a>
+      <a href="">About</a>
+      <a href="">Contact Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <!--=============================hero banner================================-->
+    <section class="hero-banner">
+      <div class="hero-banner-left">
+        <p class="hbl-p1">Hi, I'm</p>
+        <h2>Ayomide <br />Adetiloye</h2>
+        <p class="expertise">Mechatronics & Robotics Engineering Student</p>
+        <p class="hero-description">
+          Placeholder content — this section will be updated with a complete
+          project case study. The final version will explain the problem being
+          solved, the design and development process, the technologies used, the
+          challenges encountered, and the final result, supported with images,
+          diagrams, code snippets, and relevant links.
+        </p>
+        <div>
+          <button class="hbl-b1">View Projects</button>
+          <button class="hbl-b2">Download CV</button>
+        </div>
+      </div>
+      <div class="hero-banner-right">
+        <img
+          src="../images/ChatGPT Image Jun 12, 2026, 01_33_32 AM.png"
+          class="hbr-img1" />
+        <img
+          src="../images/pawel-czerwinski-7LoWpCOAn6k-unsplash.jpg"
+          class="hbr-img2" />
+      </div>
+    </section>
+    <!--=============================Featured Projects===========================-->
+    <section class="featured-projects-sect">
+      <div class="fps-1">
+        <h2>Featured Projects</h2>
+        <a>View all Projects</a>
+      </div>
+      <div class="project-cards-wrapper"></div>
+    </section>
+    <!--=============================Technical Skills===========================-->
+    <section class="techS-sect">
+      <h2>Technical Skills</h2>
+      <div id="techS-wrapper"></div>
+    </section>
+    <!--=============================About-Me===========================-->
+    <section class="aboutme-sect">
+      <div class="profilepic-wrapper">
+        <img src="About-me/images/mykola-holyutyak-4.jpg" />
+      </div>
+      <div class="aboutme-sect-right">
+        <h2>About Me</h2>
+        <p>
+          I’m a Mechatronics & Robotics Engineering student with a strong
+          foundation in embedded systems, control, and simulation. I enjoy
+          building practical solutions that combine hardware and software to
+          solve real-world problems.
+        </p>
+        <p>
+          I’m currently seeking placement opportunities where I can contribute,
+          learn, and grow as an engineer.
+        </p>
+        <div class="abm-cards-wrap"></div>
+      </div>
+    </section>
+  </main>
+  <!--========================================JavaScript===============================-->
+  <script type="module" src="featured-projects/featured-projects.js"></script>
+  <script type="module" src="technical-skills/technical-skills.js"></script>
+  <script type="module" src="About-me/about-me.js"></script>
+</body>
