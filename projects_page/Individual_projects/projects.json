@@ -1,0 +1,29 @@
+[
+    {
+      "id": 0,
+      "Title": "Security Alarm System",
+      "MediaType1": "Image",
+      "MediaSrc1": "../universal-components/images/circuit-image.jpg",
+      "Summary": "Button Triggered alarm using motor, buzzer, and LED status system with secure feedback",
+      "Tags": ["Arduino", "C++", "Electronics", "Git & GitHub"],
+
+      "Overview": "This project involved designing, fabricating, and testing a multi-layer PCB for remote sensor telemetry. The primary constraint was minimizing power draw for solar-harvesting environments while ensuring continuous data logging over long-distance radio frequencies. The project code is found in <b>GitHub</b> in the link below.",
+
+      "Specs": [],
+
+      "StorySections": [
+        {
+          "Heading": "The Research Phase",
+          "Paragraph": "We started by mapping out power rails and evaluating low-dropout linear regulators (LDOs). Finding components with negligible quiescent current was critical because the circuit board needed to run autonomously for years without maintenance.",
+          "SectionMedia": "/projects_page/images/schematics.jpg",
+          "SectionMediaType": "image"
+        },
+        {
+          "Heading": "Testing & Calibration",
+          "Paragraph": "Watch this brief oscilloscope clip demonstrating how cleanly the logic analyzer shifts states under heavy radio frequency interference during telemetry transmissions.",
+          "SectionMedia": "/projects_page/videos/oscilloscope-test.mp4",
+          "SectionMediaType": "video"
+        }
+      ]
+    }
+]

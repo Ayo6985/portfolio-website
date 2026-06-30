@@ -1,11 +1,11 @@
-import { featuredProjectsInfo } from "./featured-projects-info.js";
+import { ProjectsInfo } from "./projects_info.js";
 
 window.addEventListener("DOMContentLoaded", async () => {
   //-----------------Global Variables---------------------------
-  const featuredProjectsWrapper = document.querySelector(
-    ".project-cards-wrapper",
+  const ProjectsWrapper = document.querySelector(
+    ".project-cards-wrapper"
   );
-  featuredProjectsInfo.forEach((featuredProject) => {
+  ProjectsInfo.forEach((Project) => {
     const projectCard = document.createElement("div");
     projectCard.classList.add("project-card");
 
@@ -17,14 +17,14 @@ window.addEventListener("DOMContentLoaded", async () => {
 
     const projectImage = document.createElement("img");
     projectImage.classList.add("featured-project-image");
-    projectImage.src = featuredProject.Image;
+    projectImage.src = Project.Image;
 
     const projectTitle = document.createElement("h3");
-    projectTitle.innerHTML = featuredProject.Title;
+    projectTitle.innerHTML = Project.Title;
     projectTitle.classList.add("featured-project-name");
 
     const projectDescp = document.createElement("p");
-    projectDescp.innerHTML = featuredProject.Description;
+    projectDescp.innerHTML = Project.Description;
     projectDescp.classList.add("project-descp");
 
     const tagWrapper = document.createElement("div");
@@ -35,20 +35,20 @@ window.addEventListener("DOMContentLoaded", async () => {
     const viewProject = document.createElement("a");
     viewProject.classList.add("vp-link");
     viewProject.innerHTML = "View Project";
-    viewProject.href = `../projects_page/Individual_projects/project-detail.html?id=${featuredProject.Id}`
+    viewProject.href = Project.projectLink;
 
-    featuredProjectsWrapper.append(projectCard);
+    ProjectsWrapper.appendChild(projectCard);
     projectCard.append(projectCardTop, projectCardBtm);
-    projectCardTop.append(projectImage);
+    projectCardTop.appendChild(projectImage);
     projectCardBtm.append(
       projectTitle,
       projectDescp,
       tagWrapper,
       viewProjectWrapper,
     );
-    viewProjectWrapper.append(viewProject);
+    viewProjectWrapper.appendChild(viewProject);
 
-    featuredProject.Tags.forEach((tag) => {
+    Project.Tags.forEach((tag) => {
       const projectTag = document.createElement("button");
       projectTag.innerHTML = tag;
       projectTag.classList.add("project-tag");

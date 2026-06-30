@@ -1,5 +1,6 @@
 export const featuredProjectsInfo = [
   {
+    Id: 0,
     Image: "../universal-components/images/circuit-image.jpg",
     Title: "Arduino Security Alarm System",
     Description:
@@ -9,6 +10,7 @@ export const featuredProjectsInfo = [
   },
 
   {
+    Id: 1,
     Image: "../universal-components/images/circuit-image.jpg",
     Title: "Arduino Security Alarm System",
     Description:
@@ -18,6 +20,7 @@ export const featuredProjectsInfo = [
   },
 
   {
+    Id: 2,
     Image: "../universal-components/images/circuit-image.jpg",
     Title: "Arduino Security Alarm System",
     Description:
@@ -27,6 +30,7 @@ export const featuredProjectsInfo = [
   },
 
   {
+    Id: 3,
     Image: "../universal-components/images/circuit-image.jpg",
     Title: "Arduino Security Alarm System",
     Description:
