@@ -16,7 +16,6 @@
 
   <!--CSS Styles-->
   <link rel="stylesheet" href="../universal-components/body.css" />
-  <link rel="stylesheet" href="landing_page.css" />
   <link rel="stylesheet" href="featured-projects.css" />
   <link rel="stylesheet" href="./technical-skills/technical-skills.css" />
   <link rel="stylesheet" href="./About-me/about-me.css" />
@@ -25,7 +24,7 @@
   <header>
     <h1><span class="h1-1">A</span>A</h1>
     <nav class="headerLinks">
-      <a href="">Home</a>
+      <a href="http://127.0.0.1:5500/landing_page/landing_page.html">Home</a>
       <a href="http://127.0.0.1:5500/projects_page/projects_page.html">Projects</a>
       <a href="">Skills</a>
       <a href="">About</a>
@@ -48,7 +47,7 @@
           diagrams, code snippets, and relevant links.
         </p>
         <div>
-          <button class="hbl-b1">View Projects</button>
+          <a href="http://127.0.0.1:5500/projects_page/projects_page.html"><button class="hbl-b1">View Projects</button></a>
           <button class="hbl-b2">Download CV</button>
         </div>
       </div>
@@ -65,7 +64,7 @@
     <section class="featured-projects-sect">
       <div class="fps-1">
         <h2>Featured Projects</h2>
-        <a>View all Projects</a>
+        <a href="http://127.0.0.1:5500/projects_page/projects_page.html">View all Projects</a>
       </div>
       <div class="project-cards-wrapper"></div>
     </section>
@@ -95,6 +94,19 @@
       </div>
     </section>
   </main>
+
+  <footer>
+    <div>
+    <h5>Let's Connect</h5>
+    <h4>I'm Open to Placement opportunities</h4>
+    <p>Let's build something impactful together</p>
+    </div>
+
+    <div>
+      <button class="fb1">Email Me</button>
+      <button class="fb2">GitHub</button>
+    </div>
+  </footer>
   <!--========================================JavaScript===============================-->
   <script type="module" src="featured-projects/featured-projects.js"></script>
   <script type="module" src="technical-skills/technical-skills.js"></script>

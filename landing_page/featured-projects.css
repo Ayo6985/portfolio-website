@@ -15,6 +15,12 @@
   font-family: Lato;
   font-size: 0.9rem;
   font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.fps-1 a:hover, .vp-link:hover{
+  color: rgb(143, 143, 143);
+  transition: 0.2s;
 }
 
 .featured-projects-sect h2 {
