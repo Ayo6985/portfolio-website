@@ -167,7 +167,7 @@ main {
 }
 
 /*---------------footer*----------------*/
-footer{
+footer {
   margin: 1rem;
   margin-right: 1rem;
   margin-top: 4rem;
@@ -184,26 +184,26 @@ footer{
   padding-bottom: 1rem;
 }
 
-footer h5{
-   color: #aedd52;;
+footer h5 {
+  color: #aedd52;
   font-family: Lato;
   margin-top: 0;
   margin-bottom: 0.3rem;
 }
-footer h4{
-   color: rgb(255, 255, 255);
+footer h4 {
+  color: rgb(255, 255, 255);
   font-family: Lato;
   margin-top: 0;
   margin-bottom: 0.3rem;
 }
-footer p{
-   color: rgb(255, 255, 255);
+footer p {
+  color: rgb(255, 255, 255);
   font-family: Lato;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.fb1{
+.fb1 {
   border-radius: 0.3rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -216,7 +216,7 @@ footer p{
   margin-right: 2rem;
 }
 
-.fb2{
+.fb2 {
   border-radius: 0.3rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -228,4 +228,3 @@ footer p{
   border: #ffffff solid 0.08rem;
   margin-right: 2rem;
 }
-
