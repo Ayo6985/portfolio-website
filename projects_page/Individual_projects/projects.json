@@ -96,9 +96,113 @@
       }
     ],
 
-    
+    "Video": "https://www.youtube.com/embed/uCUd_3_3db0?si=SuXTmzv2FKkqS8jA",
 
-    "Video" : "https://www.youtube.com/embed/uCUd_3_3db0?si=SuXTmzv2FKkqS8jA",
+    "PandS": [
+      { "Problem": "no", "Solution": "Yes" },
+      { "Problem": "no", "Solution": "Yes" },
+      { "Problem": "no", "Solution": "Yes" }
+    ]
+  },
+
+  {
+    "id": 1,
+    "Title": "Weight Sensing Glove",
+    "Brief": "An Arduino based wearable sensing glove featuring force sensitive resistors to measure and monitor grip force across multiple fingers.",
+    "Image0": "https://res.cloudinary.com/jeqvneqk/image/upload/v1783879263/secalarm_wixdjp.png",
+    "Summary": "Button Triggered alarm using motor, buzzer, and LED status system with secure feedback",
+    "Tags": ["Arduino", "C++", "Electronics", "Git & GitHub"],
+
+    "Overview": [
+      "This project involved designing, programming, and prototyping an intelligent embedded system tailored for automated asset protection.",
+      "The primary engineering challenge was to integrate low-latency motion tracking with an encrypted keypad interface while operating within strict microcontroller memory constraints.",
+      "By optimizing the peripheral interrupt routines and implementing an event-driven control loop, the final system achieved a sub-50ms reaction window and successfully reduced false-trigger rates by 35% compared to baseline software models."
+    ],
+
+    "Info": [
+      ": Solo Project",
+      ": 4 days",
+      ": 13th July 2026",
+      ": C++",
+      ": Arduino IDE, Git/Github, PCB Design"
+    ],
+
+    "HIW": [
+      {
+        "step": 1,
+        "title": "System Armed",
+        "description": "User enters the secure access code into the keypad to arm the system",
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784235859/undraw_enter-password_1kl4_iyx4wg.svg"
+      },
+      {
+        "step": 2,
+        "title": "Motion Detected",
+        "description": "PIR sensor detects movement in the area",
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784237750/undraw_motion-alert_pr1a_ucslwm.svg"
+      },
+      {
+        "step": 3,
+        "title": "Alarm Triggered",
+        "description": "Buzzer sounds and LED turns red to alert the user",
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784237893/undraw_alarm-ringing_4deu_m0zsc8.svg"
+      },
+      {
+        "step": 4,
+        "title": "Enter Code",
+        "description": "User enters the correct code to disarm the system",
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784235859/undraw_enter-password_1kl4_iyx4wg.svg"
+      },
+      {
+        "step": 5,
+        "title": "Access Granted",
+        "description": "Buzzer stops, LED turns green, and servo unlocks",
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784237976/undraw_authentication_1evl_vln4qb.svg"
+      }
+    ],
+
+    "CodeSnippet": [
+      {
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784378019/Screenshot_2026-07-18_133318_h8ssyb.png",
+        "link": "https://github.com/Ayo6985/Security-alarm-system/blob/main/sketch_jun10a/sketch_jun10a.ino"
+      }
+    ],
+
+    "ImageGallery": [
+      {
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1788735689/temp1_u4ozh8.png",
+        "title": "image 1"
+      },
+      {
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1788735843/temp2_vqhonw.png",
+        "title": "image 2"
+      },
+      {
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1788735842/temp3_duhgsn.png",
+        "title": "image 3"
+      },
+      {
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784381777/best-small-business-security-systems_ufuyh4.jpg",
+        "title": "image 4"
+      },
+      {
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784381774/Vivint-Home-Security-Components_ntoscc.jpg",
+        "title": "image 5"
+      },
+      {
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784381774/cove-system-and-cameras_ubo7aj.jpg",
+        "title": "image 6"
+      },
+      {
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784381773/GettyImages-1303567646_ydzunt.jpg",
+        "title": "image 7"
+      },
+      {
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784381770/best-systems-page-3_z0fmut.jpg",
+        "title": "image 8"
+      }
+    ],
+
+    "Video": "https://www.youtube.com/embed/uCUd_3_3db0?si=SuXTmzv2FKkqS8jA",
 
     "PandS": [
       { "Problem": "no", "Solution": "Yes" },

@@ -228,3 +228,7 @@ footer p {
   border: #ffffff solid 0.08rem;
   margin-right: 2rem;
 }
+
+.fb2:hover{
+  cursor: pointer;
+}

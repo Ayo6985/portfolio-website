@@ -7,7 +7,7 @@ export const aboutMeInfo = [
 
   {
     image: "../landing_page/About-me/images/icons8-project-96.png",
-    text1: "X+",
+    text1: "2",
     text2: "Projects Completed",
   },
 

@@ -1,10 +1,9 @@
 import { ProjectsInfo } from "./projects_info.js";
 
 window.addEventListener("DOMContentLoaded", async () => {
+
   //-----------------Global Variables---------------------------
-  const ProjectsWrapper = document.querySelector(
-    ".project-cards-wrapper"
-  );
+  const ProjectsWrapper = document.querySelector(".project-cards-wrapper");
   ProjectsInfo.forEach((Project) => {
     const projectCard = document.createElement("div");
     projectCard.classList.add("project-card");
@@ -35,7 +34,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     const viewProject = document.createElement("a");
     viewProject.classList.add("vp-link");
     viewProject.innerHTML = "View Project";
-    viewProject.href = Project.projectLink;
+    viewProject.href = `../projects_page/Individual_projects/project-detail.html?id=${Project.Id}`;
 
     ProjectsWrapper.appendChild(projectCard);
     projectCard.append(projectCardTop, projectCardBtm);
