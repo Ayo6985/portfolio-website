@@ -1,0 +1,7 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/landing_page/landing_page.html"
+  status = 200
