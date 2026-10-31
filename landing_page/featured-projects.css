@@ -50,7 +50,7 @@
 
 .project-card {
   flex: 1;
-  max-height: 26rem;
+  height: 26rem;
   border-radius: 0.6rem;
   overflow: hidden;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.144);
@@ -79,11 +79,14 @@
   font-family: Pliant;
   font-weight: 500;
   max-width: 12rem;
+  margin: 0 0 1rem 0;
+  line-height: 1.2;
+  height: 2.4em;
 }
 
 .project-descp {
   font-family: Lato;
-  max-width: 16rem;
+  max-width: 100%;
   font-size: 1rem;
 }
 
