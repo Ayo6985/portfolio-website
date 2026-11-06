@@ -63,45 +63,19 @@
 
     "ImageGallery": [
       {
-        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784381779/best-systems-1_lywfkt.jpg",
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1793995981/No_Images_Available_Placeholder_mzw2vk.png",
         "title": "image 1"
-      },
-      {
-        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784381778/Arming-my-ADT-System_eyx3qr.jpg",
-        "title": "image 2"
-      },
-      {
-        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784381777/All-Equipment-in-the-Vivint-Home-Security-System_etilyy.jpg",
-        "title": "image 3"
-      },
-      {
-        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784381777/best-small-business-security-systems_ufuyh4.jpg",
-        "title": "image 4"
-      },
-      {
-        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784381774/Vivint-Home-Security-Components_ntoscc.jpg",
-        "title": "image 5"
-      },
-      {
-        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784381774/cove-system-and-cameras_ubo7aj.jpg",
-        "title": "image 6"
-      },
-      {
-        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784381773/GettyImages-1303567646_ydzunt.jpg",
-        "title": "image 7"
-      },
-      {
-        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1784381770/best-systems-page-3_z0fmut.jpg",
-        "title": "image 8"
       }
+      
     ],
 
-    "Video": "https://www.youtube.com/embed/uCUd_3_3db0?si=SuXTmzv2FKkqS8jA",
+    "Video": "",
+    "VideoFallback": "https://res.cloudinary.com/jeqvneqk/image/upload/v1793993950/Video_unavailable_placeholder_bbex3s.png",
 
     "PandS": [
-      { "Problem": "no", "Solution": "Yes" },
-      { "Problem": "no", "Solution": "Yes" },
-      { "Problem": "no", "Solution": "Yes" }
+      { "Problem": "N/A", "Solution": "N/A" },
+      { "Problem": "N/A", "Solution": "N/A" },
+      { "Problem": "N/A", "Solution": "N/A" }
     ]
   },
 
@@ -115,7 +89,6 @@
 
     "Overview": [
       "A wearable sensing glove designed to measure grip pressure using five force-sensitive resistors (FSRs), one positioned on each fingertip. The sensors detect applied force and transmit readings to a microcontroller for processing. The project combines sensor integration, circuit design and embedded programming to explore real-time force measurement and human-machine interaction."
-
     ],
 
     "Info": [
@@ -181,16 +154,17 @@
       }
     ],
 
-    "Video": "https://www.youtube.com/embed/uCUd_3_3db0?si=SuXTmzv2FKkqS8jA",
+    "Video": "",
+    "VideoFallback": "https://res.cloudinary.com/jeqvneqk/image/upload/v1793993950/Video_unavailable_placeholder_bbex3s.png",
 
     "PandS": [
-      { "Problem": "no", "Solution": "Yes" },
-      { "Problem": "no", "Solution": "Yes" },
-      { "Problem": "no", "Solution": "Yes" }
+      { "Problem": "N/A", "Solution": "N/A" },
+      { "Problem": "N/A", "Solution": "N/A" },
+      { "Problem": "N/A", "Solution": "N/A" }
     ]
   },
 
-   {
+  {
     "id": 2,
     "Title": "Robotic Arm",
     "Brief": "Designing and developing a multi-jointed, 3D-printed robotic arm with an extensive range of motion, driven by custom cycloidal actuators designed for high torque and low backlash.",
@@ -200,7 +174,6 @@
 
     "Overview": [
       "A multi-jointed robotic arm featuring a 3D-printed structure and custom-designed cycloidal actuators to deliver high torque and low backlash. The actuators drive joint movement, providing an extensive range of motion. The project combines mechanical design, actuator engineering and custom PCB development to create a functional robotic system with precise movement control."
-
     ],
 
     "Info": [
@@ -253,25 +226,24 @@
 
     "ImageGallery": [
       {
-        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1788735689/temp1_u4ozh8.png",
+        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1793995981/No_Images_Available_Placeholder_mzw2vk.png",
         "title": "image 1"
-      },
-      {
-        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1788735843/temp2_vqhonw.png",
-        "title": "image 2"
-      },
-      {
-        "image": "https://res.cloudinary.com/jeqvneqk/image/upload/v1788735842/temp3_duhgsn.png",
-        "title": "image 3"
       }
     ],
 
-    "Video": "https://www.youtube.com/embed/uCUd_3_3db0?si=SuXTmzv2FKkqS8jA",
+    "Video": "https://www.youtube.com/embed/wUPxJLHd9Yc",
 
     "PandS": [
-      { "Problem": "no", "Solution": "Yes" },
-      { "Problem": "no", "Solution": "Yes" },
-      { "Problem": "no", "Solution": "Yes" }
+      {
+        "Problem": "Too much friction between 3d printed parts",
+        "Solution": "Introduced Dowel Pins and an extra bearing to reduce friction"
+      },
+      {
+        "Problem": "output pins were too unstable",
+        "Solution": "Made the outer casing of the actuator spin instead of inner piece."
+      },
+      { "Problem": "N/A", "Solution": "N/A" }
     ]
   }
 ]
+ 

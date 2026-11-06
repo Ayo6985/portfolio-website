@@ -19,7 +19,25 @@ window.addEventListener("DOMContentLoaded", async () => {
     const hiwWrapper = document.getElementById("hiw-wrapper");
     document.getElementById("codeImage").src = project.CodeSnippet[0].image;
     document.getElementById("githubLink").href = project.CodeSnippet[0].link;
-    document.getElementById("ytIframe").src = project.Video;
+
+    //========================video
+    const videoIframe = document.getElementById("ytIframe");
+
+    if (project.Video && project.Video.trim() !== "") {
+      // Display video if a link exists
+      videoIframe.src = project.Video;
+    } else {
+      // Replace video with project image
+      const fallbackImage = document.createElement("img");
+
+      fallbackImage.src = project.VideoFallback || project.Image0;
+      fallbackImage.alt = project.Title;
+      fallbackImage.className = "video-fallback";
+
+      videoIframe.replaceWith(fallbackImage);
+    }
+    //========================video
+
     const problemsAndSolutions = project.PandS; // grabs JSON array
     const problemsList = document.querySelector("#lessonsL ul");
     const solutionsList = document.querySelector("#problemsS ul");

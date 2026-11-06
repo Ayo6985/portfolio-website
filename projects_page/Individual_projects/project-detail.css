@@ -344,6 +344,18 @@ header {
   box-sizing: border-box;
 }
 
+/*Fallback image when no video exists*/
+.video-fallback {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  background-color: #131415;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: block;
+}
+
 /*problems and solutions*/
 .pandsol {
   background-color: #131415;
